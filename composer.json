@@ -1,0 +1,11 @@
+{
+    "name": "enter/common",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adi Prasetyo",
+            "email": "672012233@student.uksw.edu"
+        }
+    ],
+    "require": {}
+}
