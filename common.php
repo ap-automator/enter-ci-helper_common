@@ -72,4 +72,8 @@
     return ucfirst($firstName). $separator. ucfirst($lastName);
   }
 
+  // @TODO object to array
+  // array to object
+  // https://stackoverflow.com/questions/1869091/how-to-convert-an-array-to-object-in-php
+  // https://stackoverflow.com/questions/19272011/how-to-convert-an-array-into-an-object-using-stdclass/19272047
 ?>
