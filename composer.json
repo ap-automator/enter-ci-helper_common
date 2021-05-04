@@ -1,6 +1,7 @@
 {
     "name": "enter_ci/common_helper",
     "type": "codeigniter-module",
+    "version": "0.0.1"
     "authors": [
         {
           "name": "Adi Prasetyo",
