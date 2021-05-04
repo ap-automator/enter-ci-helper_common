@@ -16,6 +16,6 @@
     "extra": {
       "installer-paths": {
         "application/helpers/{$name}/": ["enter_ci/common_helper", ""]
-      },
+      }
     }
 }
