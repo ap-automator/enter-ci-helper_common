@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "extra": {
       "installer-paths": {
+        "application/helpers/{$name}/": ["", ""]
       },
-      "application/helpers/{$name}/": ["", ""]
     }
 }
