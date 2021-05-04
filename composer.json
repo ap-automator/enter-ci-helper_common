@@ -1,5 +1,5 @@
 {
-    "name": "enter/ci/common",
+    "name": "enter_ci/common_helper",
     "type": "codeigniter-module",
     "authors": [
         {
@@ -8,12 +8,12 @@
         }
     ],
     "require": {
-      "php": "7.4",
+      "php": ">=7.4",
       "composer/installers": "~1.0"
     },
     "extra": {
       "installer-paths": {
-        "application/helpers/{$name}/": ["shama/ftp", "vendor/package"]
       }
+      "application/helpers/{$name}/": ["", ""]
     }
 }
