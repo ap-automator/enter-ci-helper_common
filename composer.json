@@ -1,6 +1,6 @@
 {
     "name": "enter_ci/common_helper",
-    "type": "codeigniter-module",
+    "type": "codeigniter-library",
     "version": "0.0.1"
     "authors": [
         {
@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "extra": {
       "installer-paths": {
-        "application/helpers/{$name}/": ["", ""]
+        "application/helpers/{$name}/": ["enter_ci/common_helper", ""]
       },
     }
 }
