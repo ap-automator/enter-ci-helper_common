@@ -13,7 +13,7 @@
     },
     "extra": {
       "installer-paths": {
-      }
+      },
       "application/helpers/{$name}/": ["", ""]
     }
 }
