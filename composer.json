@@ -1,21 +1,36 @@
 {
-    "name": "enter_ci/common_helper",
-    "type": "codeigniter-library",
-    "version": "0.0.0",
-    "authors": [
-        {
-          "name": "Adi Prasetyo",
-          "email": "672012233@student.uksw.edu"
-        }
-    ],
-    "require": {
-      "php": ">=7.4",
-      "composer/installers": "~1.0"
-    },
-    "minimum-stability": "dev",
-    "extra": {
-      "installer-paths": {
-        "application/helpers/{$name}/": ["enter_ci/common_helper", ""]
-      }
+  "name": "enter_ci/common_helper",
+  "type": "codeigniter-library",
+  "homepage": "http://sukrosono.github.io",
+  "description": "trying packagist"
+  , "keywords": [
+    "CodeIgniter",
+    "helper"
+  ],
+  "version": "0.0.0",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Adi Prasetyo",
+      "email": "672012233@student.uksw.edu"
+      , "homepage": "http://sukrosono.github.io"
+      , "role": "single fighter developer, maintainer"
     }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "~1.0"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "installer-paths": {
+      "application/helpers/{$name}/": ["enter_ci/common_helper", "xda"]
+    }
+  }
+  , "support": {
+    "issues": "https://github.com/ap-automator/enter-ci-helper_common/issues"
+    , "source": "https://github.com/ap-automator/enter-ci-helper_common"
+    , "docs": "http://sukrosono.github.io"
+    , "published_doc": "https://github.com/ap-automator/enter-ci"
+  }
 }
